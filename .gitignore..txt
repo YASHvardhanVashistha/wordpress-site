@@ -1,0 +1,34 @@
+# === WordPress Core ===
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backups/
+wp-content/ai1wm-backups/
+
+# === Backup files ===
+*.wpress
+*.zip
+*.tar
+*.gz
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDE files ===
+.vscode/
+.idea/
+
+# === Logs and temporary files ===
+*.log
+*.tmp
+
+# === Node or Composer directories (if present) ===
+node_modules/
+vendor/
+
+# === Environment files ===
+.env
+.env.local
